@@ -5,6 +5,8 @@ This library provides utilities to write [JSON-ROA][] enabled APIs.
 
 ## Usage
 
+See also the section [Usage Visualization][].
+
 ### Dependency 
 
     [json-roa/clj-utils "1.0.0-beta.5"]
@@ -62,14 +64,8 @@ giving an appropriate function to the `:json-encoder` option.
 
 ### Usage Visualization 
 
-![](./docs/json-roa-middleware.svg)
+![](https://rawgit.com/json-roa/json-roa_clj-utils/master/docs/json-roa-middleware.svg)
 
-
-  [Cheshire]: https://github.com/dakrone/cheshire
-  [JSON-ROA]: http://json-roa.github.io/
-  [Ring-JSON]: https://github.com/ring-clojure/ring-json
-  [data.json]: https://github.com/clojure/data.json
-  [ring middleware]: https://github.com/ring-clojure/ring/wiki/Concepts#middleware
 
 
 ## Copyright and License 
@@ -83,5 +79,9 @@ Copyright © 2015 Thomas Schank
 Released to the public under the [MIT License](http://opensource.org/licenses/MIT).
 
 
-
-
+  [Cheshire]: https://github.com/dakrone/cheshire
+  [JSON-ROA]: http://json-roa.github.io/
+  [Ring-JSON]: https://github.com/ring-clojure/ring-json
+  [Usage Visualization]: #usage-visualization
+  [data.json]: https://github.com/clojure/data.json
+  [ring middleware]: https://github.com/ring-clojure/ring/wiki/Concepts#middleware
