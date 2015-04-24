@@ -1,4 +1,4 @@
-(defproject json-roa/clj-utils "1.0.0-beta.5"
+(defproject json-roa/clj-utils "1.0.0-beta.6"
   :description "JSON-ROA utils for clojure. Ring middleware for negotiating, building and writing JSON-ROA"
   :url "https://github.com/json-roa/json-roa_clj-utils"
   :license {:name "The MIT License"

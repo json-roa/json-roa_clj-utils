@@ -32,7 +32,7 @@
     {:status 406
      :body "This resource accepts 'application/json-roa+json' or 'application/json' only."}
     (ring.util.response/header "Content-Type" "text/plain")
-    (ring.util.response/charset "UTF8")))
+    (ring.util.response/charset "UTF-8")))
 
 (defn wrap-accept [handler]
   (fn [request]
