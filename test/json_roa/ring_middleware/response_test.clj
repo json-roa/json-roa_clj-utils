@@ -3,7 +3,6 @@
 
 (ns json-roa.ring-middleware.response-test
   (:require 
-    [cider-ci.utils.debug :as debug]
     [ring.util.response]
     [json-roa.ring-middleware.response]
     [clojure.data.json :as json]

@@ -4,7 +4,6 @@
 (ns json-roa.ring-middleware.request-test
   (:require 
     [cheshire.core :as cheshire]
-    [cider-ci.utils.debug :as debug]
     [clj-logging-config.log4j :as logging-config]
     [clojure.data.json :as json]
     [clojure.tools.logging :as logging]
